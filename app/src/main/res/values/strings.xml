@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NotesApp</string>
+    <string name="first_name">First_Name</string>
+    <string name="last_name">Last_Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="firstTime">First_Time</string>
 </resources>
