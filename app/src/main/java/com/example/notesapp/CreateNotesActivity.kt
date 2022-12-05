@@ -22,7 +22,7 @@ class CreateNotesActivity : AppCompatActivity() {
         val btnCreateNote = findViewById<Button>(R.id.btnSubmit)
 
         val currentDate = LocalDateTime.now()
-        val dateFormatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)
+        val dateFormatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG)
         val formattedDate = currentDate.format(dateFormatter)
 
         btnCreateNote.setOnClickListener() {
